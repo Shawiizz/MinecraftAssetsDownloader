@@ -7,7 +7,6 @@ Import [this jar file](https://github.com/Shawiizz/MinecraftAssetsDownloader/blo
 ### Getting assets only
 -> `MCAssetsDownloader.getAssets("version", LOG_DISPLAY);`
 - Replace version by your choosed version. To get assets of the latest version, replace version by release or snapshot.
-- If you don't want to display logs, replace LOG_DISPLAY by LOG_HIDE
 
 > This method return a List of String
 
@@ -15,8 +14,9 @@ Import [this jar file](https://github.com/Shawiizz/MinecraftAssetsDownloader/blo
 -> `MCAssetsDownloader.downloadAssets("version", "path", LOG_DISPLAY);`
 - Replace version by your choosed version. To download assets of the latest version, replace "version" by "release" or "snapshot".
 - Replace path by your own folder path.
-- If you don't want to display logs, replace LOG_DISPLAY by LOG_HIDE
+
+**If you don't want to display logs, replace LOG_DISPLAY by LOG_HIDE**
 
 ## Data available
 
-You can get files to download and downloaded files. Theses things are store in 2 int variables : `filesToDownload` and `downloadedFiles`
+You can get files to download, downloaded files and current downloading file. Theses things are store in 3 variables : `filesToDownload` (int), `downloadedFiles` (int) and `currentFile` (String)

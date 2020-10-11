@@ -2,7 +2,7 @@
 A simple Java library to download or get Minecraft assets of a specific version
 
 ## How to use ?
-Import [this jar file]() into your project.
+Import [this jar file](https://github.com/Shawiizz/MinecraftAssetsDownloader/blob/master/MCAssetsDownloader.jar?raw=true) into your project.
 
 ### Getting assets only
 -> `MCAssetsDownloader.getAssets("version", LOG_DISPLAY);`
